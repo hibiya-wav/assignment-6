@@ -1,0 +1,28 @@
+/*
+  Daniel Santos Martinez
+  UCID: ds73
+  November 20, 2024
+  ASSIGNMENT 6
+*/
+
+.stacked-area-visualization {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.tooltip {
+    position: absolute;
+    background: #eaeaea;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 100;
+}
+
+.tooltip svg {
+    background: #eaeaea;
+}
